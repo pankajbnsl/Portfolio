@@ -83,6 +83,9 @@
 
 
 @media (max-width: 600px){
+    .skills{
+        grid-template-columns: repeat(1, 1fr);
+    }
     .skills-container{
         padding: 0;
     }
