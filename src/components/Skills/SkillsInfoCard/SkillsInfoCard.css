@@ -64,3 +64,10 @@
         padding: 1.5rem;
     }
 }
+
+
+@media (max-width:600px){
+    .skills-info-content{
+        padding: 1rem;
+    }
+}
