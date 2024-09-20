@@ -1,0 +1,81 @@
+.about-container{
+    margin: 4rem 0;
+    position: relative;
+}
+
+.about-container h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.about-content{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.3rem;
+}
+
+.about-content .person-detail{
+    background: linear-gradient(to bottom right, #1e3a8a59, #0f172a);
+    padding: 1.5rem;
+    border-radius: 0.65rem;
+}
+
+.person-detail p{
+    font-size: 1rem;
+    line-height: 2rem;
+    word-spacing: 0.1rem;
+}
+
+.about-count{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.about-content img{
+    width: 20rem;
+    border-radius: 0.65rem;
+}
+
+.about-count-box{
+    background: linear-gradient(to bottom right, #1e3a8a59, #0f172a);
+    padding: 1.5rem;
+    border-radius: 0.65rem;
+}
+
+.about-count-box h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.about-count-box p{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+
+@media (max-width:1024px){
+    .person-detail p{
+        font-size: 0.8rem;
+        line-height: 1.7rem;
+        word-spacing: 0.2rem;
+    }
+    .about-content img{
+        display: none;
+    }
+    .about-count{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about-count-box{
+        padding: 0.9rem;
+    }
+    .about-count-box h4{
+        font-size: 1.2rem;
+    }
+    
+    .about-count-box p{
+        font-size: 0.7rem;
+    }
+}
+
