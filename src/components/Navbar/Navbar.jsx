@@ -9,6 +9,14 @@ const Navbar = () => {
         setOpenMenu(!openMenu)
     }
 
+    const scrollToSection = (e, sectionId) => {
+        e.preventDefault(); // Prevent the default anchor behavior
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
   return (
     <>
         <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
@@ -18,19 +26,19 @@ const Navbar = () => {
 
                 <ul>
                     <li>
-                        <a href="#home" className="menu-item">Home</a>
+                        <a href="/" className="menu-item" onClick={(e) => scrollToSection(e, 'home')}>Home</a>
                     </li>
                     <li>
-                        <a href="#Skills" className="menu-item">Skills</a>
+                        <a href="/" className="menu-item" onClick={(e) => scrollToSection(e, 'Skills')} >Skills</a>
                     </li>
                     <li>
-                        <a href="#workExperience" className="menu-item">Work Experience</a>
+                        <a href="/" className="menu-item"  onClick={(e) => scrollToSection(e, 'workExperience')}>Work Experience</a>
                     </li>
                     <li>
-                        <a href="/" className="menu-item">About</a>
+                        <a href="/" className="menu-item" onClick={(e) => scrollToSection(e, 'about')}>About</a>
                     </li>
                     <li>
-                        <a href="#contactMe" className="menu-item">Contact me</a>
+                        <a href="/" className="menu-item" onClick={(e) => scrollToSection(e, 'contactMe')}>Contact me</a>
                     </li>
 
                     <button className='contact-btn' onClick={() => {}}>

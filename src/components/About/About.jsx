@@ -3,7 +3,7 @@ import './About.css'
 
 const About = () => {
   return (
-    <section className='about-container'>
+    <section className='about-container' id="about">
          <h5>About Me</h5>
          <div className="about-content">
                 <img src="./assets/images/img15.webp" alt="React Logo" />
