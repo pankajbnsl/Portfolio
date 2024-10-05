@@ -83,3 +83,36 @@ export const WORK_EXPERIENCE = [
     }
 
 ];
+
+export const PROJECTS = [
+    {
+        "title": "Travel Story",
+        "date": "June 2024 – Present",
+        "responsibilities": [
+            "Built a full-stack web app using Express for smooth REST API operations and React for a user-friendly interface.",
+            "Implemented user authentication, allowing users to securely log in and manage their travel stories.",
+            "Enabled users to store detailed travel experiences, including locations visited, modes of travel, and images, by implementing Multer for efficient image uploads.",
+            "Developed an intuitive calendar feature that enables users to easily view, track, and organize their travel data in a structured and efficient manner."
+        ]
+    },
+    {
+        "title": "Notes App",
+        "date": "June 2023 – January 2024",
+        "responsibilities": [
+            "Developed a notes management application using React.js, Node.js, MongoDB, and Tailwind CSS, enabling users to create, edit, and delete notes effortlessly.",
+            "Implemented secure user authentication using JSON Web Tokens (JWT), ensuring personalized access and data protection.",
+            "Designed a responsive user interface with React.js, enhancing the overall usability and aesthetic appeal of the application.",
+            "Leveraged MongoDB for robust data storage, allowing for quick retrieval and seamless synchronization of notes across sessions."
+        ]
+    },
+    {
+        "title": "Insta Bot",
+        "date": "December 2022 – January 2023",
+        "responsibilities": [
+            "Developed an automation tool using Selenium that retrieves user-specific Instagram details efficiently.",
+            "Implemented functionality to check followers and followings, identifying users who are not following back.",
+            "Designed a user-friendly interface with Node.js and Express.js for seamless interactions and data presentation.",
+            "Enhanced the bot’s performance through optimized scripting, ensuring rapid data retrieval and analysis."
+        ]
+    }
+];

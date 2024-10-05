@@ -8,9 +8,11 @@ const ContactMe = () => {
     <section className="contact-container" id="contactMe">
         <h5>Contact Me</h5>
         <div className="contact-content">
-            <div style={{flex: 1}}>
-                <ContactInfoCard iconUrl="./assets/images/email-icon.svg" text="pankajbansal406@gmail.com" />
-                <ContactInfoCard iconUrl="./assets/images/github-icon.svg" text="https://github.com/pankajbnsl" />
+            <div className="contact-content-container">
+                <ContactInfoCard iconUrl="./assets/images/email-icon.svg" text="Gmail" link="mailto:pankajbansal406@example.com"/>
+                <ContactInfoCard iconUrl="./assets/images/github-icon.svg" text="Github" link="https://github.com/pankajbnsl" />
+                <ContactInfoCard iconUrl="./assets/images/linkedIn-icon.svg" text="LinkedIn" link="https://www.linkedin.com/in/pankajbnsl"/>
+                <ContactInfoCard iconUrl="./assets/images/phone-icon.svg" text="Phone" link="tel:+919560681357"/>
             </div>
             <div style={{flex: 1}}>
                 <ContactForm/>

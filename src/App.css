@@ -1,4 +1,21 @@
-
+/* Scrollbar width */
+::-webkit-scrollbar {
+    width: 12px;
+    background: transparent;
+  }
+  
+  
+  /* Handle (scroll thumb) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #7c5fe6;
+    border-radius: 5px;
+    border: 1.5px solid #6751b9;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent; /* Change the color on hover */
+  }
 
 .container{
     max-width: 1300px !important;

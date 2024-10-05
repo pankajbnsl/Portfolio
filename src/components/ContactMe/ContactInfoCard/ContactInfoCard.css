@@ -1,4 +1,5 @@
 .contact-details-card{
+    min-width: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,6 +8,8 @@
     border: 1.5px solid #6751b9;
     padding: 1.5rem;
     margin-bottom: 2rem;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .contact-details-card .icon{
@@ -29,4 +32,6 @@
 .contact-details-card p{
     font-size: 0.9rem;
     font-weight: 400;
+    text-decoration: none;
+    color: white;
 }
