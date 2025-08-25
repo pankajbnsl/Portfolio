@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="hero-content">
             <h2>Empowering Ideas through Creative Code</h2>
             <p>
-            Passionate Full Stack Developer | Bringing Ideas to Life with Stunning Web Design
+            React Developer | Automation Specialist | Streamlining Processes with Innovative Solutions
             </p>
         </div>
 

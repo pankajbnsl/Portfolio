@@ -16,8 +16,8 @@ export const SKILLS = [
         "skills": [
             { "skill": "Node.js", "percentage": "85%" },
             { "skill": "Express.js", "percentage": "80%" },
-            { "skill": "MySQL", "percentage": "70%" },
-            { "skill": "MongoDB", "percentage": "80%" }
+            { "skill": "RESTful APIs", "percentage": "80%" },
+            { "skill": "JWT Authentication", "percentage": "75%" }
         ]
     },
     {
@@ -31,28 +31,31 @@ export const SKILLS = [
         ]
     },
     {
-        "title": "Cloud Platforms",
+        "title": "Databases",
         "icon": "./assets/images/cloud-icon.png",
         "skills": [
-            { "skill": "AWS", "percentage": "70%" }
+            { "skill": "MongoDB", "percentage": "85%" },
+            { "skill": "MySQL", "percentage": "80%" }
         ]
     },
     {
         "title": "Automation & Testing",
         "icon": "./assets/images/automation-icon.png",
         "skills": [
-            { "skill": "Selenium", "percentage": "85%" },
-            { "skill": "TagUI", "percentage": "75%" }
+            { "skill": "Selenium", "percentage": "90%" },
+            { "skill": "Playwright", "percentage": "85%" },
+            { "skill": "Cypress", "percentage": "70%" },
+            { "skill": "Unit Testing", "percentage": "75%" }
         ]
     },
     {
-        "title": "Version Control & Developer Tools",
+        "title": "Tools & Platform",
         "icon": "./assets/images/tools-icon.png",
         "skills": [
             { "skill": "Git", "percentage": "80%" },
-            { "skill": "VS Code", "percentage": "85%" },
-            { "skill": "Visual Studio", "percentage": "75%" },
-            { "skill": "React Dev Tools", "percentage": "80%" }
+            { "skill": "Github", "percentage": "85%" },
+            { "skill": "Postman", "percentage": "75%" },
+            { "skill": "CI/CD", "percentage": "80%" }
         ]
     }
 ];
@@ -60,14 +63,30 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
     {
-        title: "Software Engineer at Niit Limited",
-        date: "July 2022 - Present",
+        title: "React/Automation Engineer at Magic Edtech",
+        date: "May 2025 - Present",
         responsibilities: [
-            "Developed a MetaData application using React, Node.js, Express.js, and MongoDB to help clients manage, gather, and analyze issues. The application supports various testing types on an education platform, enabling users to log in, register, perform tests, and view results on a dashboard with real-time visualizations and analytics.",
-            "Developed the Audio Mapper, an automated system to fetch HTML and SMIL data, store it in the desired database, and map it with audio data (word- or sentence-wise). Designed the web interfaces using React and implemented the backend with Node.js and Express. Integrated BARD API for audio data fetching with robust error-handling mechanisms.",
-            "Built an email-sending feature using NodeMailer via an SMTP server, along with token-based email authentication.",
-            "Developed file-handling features with Express.js middleware and multer for efficient uploads and validation.",
-            "Applied SOLID principles and DRY design patterns to create reusable custom hooks, improving code quality and efficiency."
+            "Migrated legacy systems to React.js, improving UI performance by 35% and enhancing component reusability",
+            "Automated workflows using Node.js, Selenium, and AI-powered scripts, reducing manual effort by 60%.",
+            "Developed modular front-end architecture with reusable components and custom hooks, streamlining development and ensuring scalability"
+        ]
+    },
+    {
+        title: "Software Developer at Adecco",
+        date: "Feb 2025 - May 2025",
+        responsibilities: [
+            " Developed responsive UIs with React.js based on Figma designs, cutting rework by 20%.",
+            "Integrated Redux for predictable state management across complex UI modules.",
+            "Improved legacy code performance by 30% through optimization and async API handling."
+        ]
+    },
+    {
+        title: "Software Engineer at Niit Limited",
+        date: "July 2022 - Feb 2025",
+        responsibilities: [
+            "Built full-stack features using React.js, Node.js, and MongoDB, automating workflows and reducing manual effort by 50%.",
+            "Developed secure authentication with JWT and implemented file uploads using Multer and Express.js, enhancing data security and user experience",
+            "Integrated external APIs with advanced error handling, improving system reliability and uptime by 40%"
         ]
     },
     {

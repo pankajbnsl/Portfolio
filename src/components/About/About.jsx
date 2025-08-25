@@ -18,11 +18,11 @@ const About = () => {
          </div>
          <div className="about-count">
             <div className='about-count-box'>
-                <h4>2+</h4>
+                <h4>3+</h4>
                 <p>Years of Experience</p>
             </div>
             <div className='about-count-box'>
-                <h4>20</h4>
+                <h4>25</h4>
                 <p>Projects Completed Successfully</p>
             </div>
             <div className='about-count-box'>
