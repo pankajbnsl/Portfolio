@@ -66,9 +66,9 @@ export const WORK_EXPERIENCE = [
         title: "React/Automation Engineer at Magic Edtech",
         date: "May 2025 - Present",
         responsibilities: [
-            "Migrated legacy systems to React.js, improving UI performance by 35% and enhancing component reusability",
-            "Automated workflows using Node.js, Selenium, and AI-powered scripts, reducing manual effort by 60%.",
-            "Developed modular front-end architecture with reusable components and custom hooks, streamlining development and ensuring scalability"
+            "Migrated legacy systems to React.js, improving UI performance by 35% and enhancing component reusability.",
+            "Automated workflows using Node.js, Selenium and AI powered scripts, reducing manual effort by 60%.",
+            "Developed modular front-end architecture with reusable components and custom hooks, streamlining development and ensuring scalability."
         ]
     },
     {
@@ -84,16 +84,16 @@ export const WORK_EXPERIENCE = [
         title: "Software Engineer at Niit Limited",
         date: "July 2022 - Feb 2025",
         responsibilities: [
-            "Built full-stack features using React.js, Node.js, and MongoDB, automating workflows and reducing manual effort by 50%.",
-            "Developed secure authentication with JWT and implemented file uploads using Multer and Express.js, enhancing data security and user experience",
-            "Integrated external APIs with advanced error handling, improving system reliability and uptime by 40%"
+            "Built full stack features using React.js, Node.js and MongoDB, automating workflows and reducing manual effort by 50%.",
+            "Developed secure authentication with JWT and implemented file uploads using Multer and Express.js, enhancing data security and user experience.",
+            "Integrated external APIs with advanced error handling, improving system reliability and uptime by 40%."
         ]
     },
     {
         title: "Teaching Assistant at Coding Ninjas",
         date: "November 2020 - March 2021",
         responsibilities: [
-            "Assisted in guiding students through web development concepts, focusing on HTML, CSS, and JavaScript.",
+            "Assisted in guiding students through web development concepts, focusing on HTML, CSS and JavaScript.",
             "Helped in organizing and conducting practical lab sessions to reinforce theoretical lessons.",
             "Provided one-on-one support to students during coding exercises, ensuring they understood key programming concepts.",
             "Reviewed and provided feedback on student assignments to enhance learning and improve code quality.",
@@ -108,17 +108,17 @@ export const PROJECTS = [
         "title": "Travel Story",
         "date": "June 2024 – Present",
         "responsibilities": [
-            "Built a full-stack web app using Express for smooth REST API operations and React for a user-friendly interface.",
+            "Built a full stack web app using Express for smooth REST API operations and React for a user-friendly interface.",
             "Implemented user authentication, allowing users to securely log in and manage their travel stories.",
-            "Enabled users to store detailed travel experiences, including locations visited, modes of travel, and images, by implementing Multer for efficient image uploads.",
-            "Developed an intuitive calendar feature that enables users to easily view, track, and organize their travel data in a structured and efficient manner."
+            "Enabled users to store detailed travel experiences, including locations visited, modes of travel and images, by implementing Multer for efficient image uploads.",
+            "Developed an intuitive calendar feature that enables users to easily view, track and organize their travel data in a structured and efficient manner."
         ]
     },
     {
         "title": "Notes App",
         "date": "June 2023 – January 2024",
         "responsibilities": [
-            "Developed a notes management application using React.js, Node.js, MongoDB, and Tailwind CSS, enabling users to create, edit, and delete notes effortlessly.",
+            "Developed a notes management application using React.js, Node.js, MongoDB and Tailwind CSS, enabling users to create, edit and delete notes effortlessly.",
             "Implemented secure user authentication using JSON Web Tokens (JWT), ensuring personalized access and data protection.",
             "Designed a responsive user interface with React.js, enhancing the overall usability and aesthetic appeal of the application.",
             "Leveraged MongoDB for robust data storage, allowing for quick retrieval and seamless synchronization of notes across sessions."
@@ -128,9 +128,9 @@ export const PROJECTS = [
         "title": "Insta Bot",
         "date": "December 2022 – January 2023",
         "responsibilities": [
-            "Developed an automation tool using Selenium that retrieves user-specific Instagram details efficiently.",
+            "Developed an automation tool using Selenium that retrieves user specific Instagram details efficiently.",
             "Implemented functionality to check followers and followings, identifying users who are not following back.",
-            "Designed a user-friendly interface with Node.js and Express.js for seamless interactions and data presentation.",
+            "Designed a user friendly interface with Node.js and Express.js for seamless interactions and data presentation.",
             "Enhanced the bot’s performance through optimized scripting, ensuring rapid data retrieval and analysis."
         ]
     }
